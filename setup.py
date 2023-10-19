@@ -3,7 +3,8 @@ import subprocess
 
 import setuptools
 
-version = os.environ["RAVE_VERSION"]
+# version = os.environ["RAVE_VERSION"]
+version = "gh_local"
 
 with open("README.md", "r") as readme:
     readme = readme.read()
